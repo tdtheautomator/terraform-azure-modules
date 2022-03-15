@@ -1,10 +1,10 @@
 locals {
-  department  = var.department
-  environment = var.environment
-  prefix    = lower("${var.department}-${var.environment}")
+  prefix    = lower("${var.department}-${var.environment}-${var.appname}")
   vnet_name = "${local.prefix}-vnet"
   default_tags = {
-    department  = lower(local.department)
-    environment = lower(local.environment)
+    department  = lower(var.department)
+    environment = lower(var.environment)
+    appname  = lower(var.appname)
+    deploymenttype = lower(var.deploymenttype)
   }
 }

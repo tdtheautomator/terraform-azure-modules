@@ -44,6 +44,8 @@ These are defined in terraform.tfvars file
 |location            |      yes      |  string        |location of the resource group to be created        |
 |department          |      yes      |  string        |department for which this resource group belongs    |
 |environment         |      yes      |  string        |environment for which this resource group belongs   |
+|appname             |      yes      |  string        |application tag for the deployment                  |
+|deploymenttype      |      no       |  string        |deployment type defaults to terraform               |
 ## References
 - [VSCode Download](https://code.visualstudio.com/download)
 - [Git Download](https://git-scm.com/downloads)

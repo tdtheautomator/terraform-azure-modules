@@ -8,6 +8,14 @@ variable "environment" {
   type    = string
 }
 
+variable "appname" {
+  type = string
+}
+
+variable "deploymenttype" {
+  type = string
+  default = "terraform"
+}
 variable "rg_name" {
   type    = string
 }
@@ -19,3 +27,4 @@ variable "vnet_address_space" {
 variable "vnet_subnets" {
   type = map(any)
 }
+

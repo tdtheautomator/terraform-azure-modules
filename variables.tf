@@ -8,3 +8,20 @@ variable "department" {
 variable "environment" {
   type = string
 }
+
+variable "appname" {
+  type = string
+}
+
+variable "deploymenttype" {
+  type    = string
+  default = "terraform"
+}
+
+variable "vnet_address_space" {
+  type = list(string)
+}
+
+variable "vnet_subnets" {
+  type = map(any)
+}
