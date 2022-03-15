@@ -33,8 +33,8 @@ Coinfiguration is tested with following version of providers.
 |null      |   3.10      |[click](https://registry.terraform.io/providers/hashicorp/null)    |
 
 ## Modules
-- resourcegorups
-- networking
+- [resourcegorup](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/resourcegroup)
+- [networking](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/networking)
 
 ## Common Inputs
 These are defined in terraform.tfvars file
