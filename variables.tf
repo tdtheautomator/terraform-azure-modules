@@ -13,7 +13,7 @@ variable "appname" {
   type = string
 }
 
-variable "deploymenttype" {
+variable "deployment-type" {
   type    = string
   default = "terraform"
 }

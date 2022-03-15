@@ -5,7 +5,7 @@ module "resourcegroup" {
   department     = var.department
   environment    = var.environment
   appname        = var.appname
-  deploymenttype = var.deploymenttype
+  deployment-type = var.deployment-type
 }
 
 
@@ -16,7 +16,7 @@ module "networking" {
   department         = var.department
   environment        = var.environment
   appname            = var.appname
-  deploymenttype     = var.deploymenttype
+  deployment-type     = var.deployment-type
   vnet_address_space = var.vnet_address_space
   vnet_subnets       = var.vnet_subnets
 }

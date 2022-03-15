@@ -5,6 +5,6 @@ locals {
     department  = lower(var.department)
     environment = lower(var.environment)
     appname  = lower(var.appname)
-    deploymenttype = lower(var.deploymenttype)
+    deployment-type = lower(var.deployment-type)
   }
 }

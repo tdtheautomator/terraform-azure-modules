@@ -18,7 +18,7 @@ Coinfiguration is tested with following version of providers.
 |department          |      yes      |  string        |department for which this resource group belongs    |
 |environment         |      yes      |  string        |environment for which this resource group belongs   |
 |appname             |      yes      |  string        |application tag for the deployment                  |
-|deploymenttype      |      no       |  string        |deployment type defaults to terraform               |
+|deployment-type     |      no       |  string        |deployment type defaults to terraform               |
 |rg_name             |      yes      |  string        |resource group under which vnet needs to be created |
 |vnet_address_space  |      yes      |  list(string)  |address space fot the vnet                          |
 |vnet_subnets        |      yes      |  map (any)     |subnet name and address space                       |

@@ -16,7 +16,7 @@ Coinfiguration is tested with following version of providers.
 |department     |      yes      |  string  |department for which this resource group belongs    |
 |environment    |      yes      |  string  |environment for which this resource group belongs   |
 |appname        |      yes      |  string  |application tag for the deployment                  |
-|deploymenttype |      no       |  string  |deployment type defaults to terraform               |
+|deployment-type|      no       |  string  |deployment type defaults to terraform               |
 
 
 ## Outputs
