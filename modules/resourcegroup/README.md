@@ -1,5 +1,5 @@
 ## Introduction
-Module to creating Resource Group
+Module for creating Resource Group
 ## Providers
 Coinfiguration is tested with following version of providers.
 | **Name** | **Version** | **Link** |

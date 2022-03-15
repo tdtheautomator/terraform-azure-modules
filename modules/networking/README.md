@@ -1,5 +1,5 @@
 ## Introduction
-Module to creating Virtual Network , Subnets and NSGs (per subnet)
+Module for creating Virtual Network , Subnets and NSGs (per subnet)
 ## Providers
 Coinfiguration is tested with following version of providers.
 | **Name** | **Version** | **Link** |
