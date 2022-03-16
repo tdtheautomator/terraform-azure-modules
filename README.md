@@ -1,5 +1,5 @@
 ## Introduction
-Repository for pre-configured modules for provisioning resources for single locaiton.
+Repository for pre-configured modules for provisioning resources for single location.
 ## Authenticate
 Authenticate using : 
 ```
