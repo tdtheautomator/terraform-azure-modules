@@ -32,7 +32,8 @@ override.tf.json
 *.pem
 
 # .hcl files from Terraform v0.14 and newer
-# *.hcl
+*.hcl
 
 #backup files
 *.backup
+temp.txt

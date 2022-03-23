@@ -2,10 +2,10 @@ variable "location" {
   type = string
 }
 variable "department" {
-  type    = string
+  type = string
 }
 variable "environment" {
-  type    = string
+  type = string
 }
 
 variable "appname" {
@@ -13,18 +13,18 @@ variable "appname" {
 }
 
 variable "deployment-type" {
-  type = string
+  type    = string
   default = "terraform"
 }
 variable "rg_name" {
   type    = string
+  default = null
 }
 
-variable "vnet_address_space" {
-  type    = list(string)
+variable "vnet_name" {
+  type = string
 }
 
-variable "vnet_subnets" {
-  type = map(any)
+variable "bastion_cidr" {
+  type = list(string)
 }
-

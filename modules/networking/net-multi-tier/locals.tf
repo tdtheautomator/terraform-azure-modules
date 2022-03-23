@@ -1,7 +1,8 @@
 locals {
-  prefix    = lower("${var.department}-${var.environment}-${var.appname}")
+prefix    = lower(join("-",["${var.environment}","${var.department}","${var.appname}"]))
   vnet_name = "${local.prefix}-vnet"
-  default_tags = {
+  rg_name = var.rg_name != null ? var.rg_name : "${local.prefix}-rg"
+    default_tags = {
     department  = lower(var.department)
     environment = lower(var.environment)
     appname  = lower(var.appname)
