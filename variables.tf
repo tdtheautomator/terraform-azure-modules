@@ -26,9 +26,9 @@ variable "vnet_subnets" {
   type = map(any)
 }
 
-variable "bastion_cidr" {
-  type = list(string)
-}
+#variable "bastion_cidr" {
+#  type = list(string)
+#}
 
 # -------------------Windows Compute Variables---------------------------
 variable "win_subnet_id" {

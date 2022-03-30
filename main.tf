@@ -20,16 +20,16 @@ module "networking" {
   vnet_subnets       = var.vnet_subnets
 }
 
-module "bastion" {
-  source          = "./modules/core/bastion"
-  location        = module.resourcegroup.resource-group-location
-  vnet_name       = module.networking.vnet-name
-  department      = var.department
-  environment     = var.environment
-  appname         = var.appname
-  deployment-type = var.deployment-type
-  bastion_cidr    = var.bastion_cidr
-}
+#module "bastion" {
+#  source          = "./modules/core/bastion"
+#  location        = module.resourcegroup.resource-group-location
+#  vnet_name       = module.networking.vnet-name
+#  department      = var.department
+#  environment     = var.environment
+#  appname         = var.appname
+#  deployment-type = var.deployment-type
+#  bastion_cidr    = var.bastion_cidr
+#}
 
 module "windowsvm" {
   source            = "./modules/compute/windows-vm"

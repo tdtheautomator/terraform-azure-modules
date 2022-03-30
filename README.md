@@ -31,7 +31,7 @@ Post authentication token is received sample commands are provided below. Refer 
 Coinfiguration is tested with following version of providers.
 | **Name** | **Version** | **Link** |
 |:--------:|:-----------:|:----------:|
-|azurerm   |   2.99      |[click](https://registry.terraform.io/providers/hashicorp/azurerm) |
+|azurerm   |   3.00      |[click](https://registry.terraform.io/providers/hashicorp/azurerm) |
 |random    |   3.10      |[click](https://registry.terraform.io/providers/hashicorp/random)  |
 |null      |   3.10      |[click](https://registry.terraform.io/providers/hashicorp/null)    |
 

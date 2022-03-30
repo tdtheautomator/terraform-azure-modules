@@ -17,12 +17,12 @@ output "subnets" {
 output "nsg" {
   value = module.networking.network-security-groups
 }
-output "bastion-ip" {
-  value = module.bastion.bastion-ip
-}
-output "bastion-host" {
-  value = module.bastion.bastion-host
-}
+#output "bastion-ip" {
+#  value = module.bastion.bastion-ip
+#}
+#output "bastion-host" {
+#  value = module.bastion.bastion-host
+#}
 
 output "Windows-VMs" {
   value = module.windowsvm.Windows-VMs
