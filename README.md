@@ -39,9 +39,9 @@ Coinfiguration is tested with following version of providers.
 - [resourcegorup](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/core/resourcegroup)
 - [net-multi-tier](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/net-multi-tier)
 - [bastion](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/core/bastion)
-  [windows-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/windows-vm)
-  [ubuntu-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/ubuntu-vm)
-  [storage-account](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/storage/storage-account)
+- [windows-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/windows-vm)
+- [ubuntu-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/ubuntu-vm)
+- [storage-account](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/storage/storage-account)
 
 ## Common Inputs
 These are defined in terraform.tfvars file
