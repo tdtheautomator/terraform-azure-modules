@@ -31,9 +31,9 @@ Post authentication token is received sample commands are provided below. Refer 
 Coinfiguration is tested with following version of providers.
 | **Name** | **Version** | **Link** |
 |:--------:|:-----------:|:----------:|
-|azurerm   |   3.00      |[click](https://registry.terraform.io/providers/hashicorp/azurerm) |
-|random    |   3.10      |[click](https://registry.terraform.io/providers/hashicorp/random)  |
-|null      |   3.10      |[click](https://registry.terraform.io/providers/hashicorp/null)    |
+|azurerm   |   3.90      |[click](https://registry.terraform.io/providers/hashicorp/azurerm) |
+|random    |   3.20      |[click](https://registry.terraform.io/providers/hashicorp/random)  |
+|null      |   3.1.1     |[click](https://registry.terraform.io/providers/hashicorp/null)    |
 
 ## Modules
 - [resourcegorup](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/core/resourcegroup)
@@ -41,6 +41,7 @@ Coinfiguration is tested with following version of providers.
 - [bastion](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/core/bastion)
   [windows-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/windows-vm)
   [ubuntu-vm](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/compute/ubuntu-vm)
+  [storage-account](https://github.com/tdtheautomator/terraform-azure-modules/tree/main/modules/storage/storage-account)
 
 ## Common Inputs
 These are defined in terraform.tfvars file
